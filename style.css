@@ -1,16 +1,17 @@
 
-        body {
-            background-color: #e6f2ff;
-            font-family: Arial;
+        body { /*Nas tags css eu irei identificar o id ou a class, ou a tag que está no meu document HTML e que eu desejo editar*/
+            background-color: #e6f2ff; /*Utilizei a Tag Background para alterar a cor de fundo*/
+            font-family: Arial; /* /* tamanho da fonte font-size e o tipo de fonte font-family para melhorar a leitura e aparência do texto */
+
         }
         #h2{
-            text-align: center;
-            color: #1900f6;
+            text-align: center; /*Defini a posição do meu text no centro*/
+            color: #1900f6; /*definir a cor Azul para o meu texto no id h2*/
             margin-top: 50px;
         }
 
         #Git {
-            width: 40px;
+            width: 40px; /*defini um tamanho de 40px para a imagem da logo do Guthub.*/
             
         }
 
@@ -32,7 +33,7 @@
             margin-bottom: 10px;
         }
 
-        #violao{
+        #violao{ /*Eu atribui um id a minha imagem do violão e aqui no css eu ajustei o tamanho da imagem*/
             width: 150px;
     
         }
@@ -43,13 +44,13 @@
      
 
         table {
-            border: 1px solid rgb(11, 62, 249);
+            border: 1px solid rgb(11, 62, 249); /* Defini a expessura de 1 px para a borda da minha tabela e defini a cor azul*/ 
             width: 100%;           
         }
 
         th, td {
-            border: 1px solid #2e38fe;
-            padding: 10px;
+            border: 1px solid #2e38fe; /*Defini a expessura de 1 px para ás linhas internas da minha tabela*/
+            padding: 10px; /* Defini um preenchimento de 10px para ás linhas da minha tabela*/
             text-align: center;
         }
 
@@ -62,6 +63,6 @@
             text-decoration: none;
         }
 
-        a:hover {
+        a:hover { /*Utilizer o comando hover para ativar a funcionalidade desejada de executar o script ao clicar no botão*/
             color: rgb(121, 175, 255);
         }
