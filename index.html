@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Pessoal de Gabriel Dias Martins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
+<body>
+
+
+        <!--Um título principal (<h1>) com seu nome.-->
+    <h1>Gabriel Dias Martins</h1>
+
+        <!--Um parágrafo (<p>) apresentando uma breve autobiografia (nome, idade, cidade, interesses etc.).-->
+    <p>Olá, meu nome é Gabriel Dias Martins, atualmente tenho 21 anos de idade, moro na cidade de Ponte Nova – Zona da Mata Mineira – o meu polo fica localizado em Viçosa. 
+    Eu gosto muito de tecnologia e música. Trabalho como técnico em redes e estudo para ser desenvolvedor o meu maior foco é o backend, tenho buscado me aprofundar meu conhecimento na linguagem java</p>
+
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+    <p id="mensagem"></p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById("mensagem").innerText = "Faça o teu melhor, na condição que você tem, enquanto não tem condições melhores, para fazer melhor ainda!";
+    }
+  </script>
+
+    <!--Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas.-->
+    <ul>
+        <li>Tocar violão</li>
+        <li>Jogar videogame</li>
+        <li>Jogar Futebol</li>
+    </ul>
+
+        <!--Uma imagem (<img>) que represente um dos hobbies mencionados.-->
+
+    <img id="violao" src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" >
+
+        <!--Uma tabela <table> que contenha o nome e a imagem de três países que gostaria de visitar. (tabela com 3 linhas x 2 colunas)-->
+
+    <h2 id="h2">Países que gostaria de visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td>Estados Unidos</td>
+            <td><img id="EUA" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" ></td>
+        </tr>
+        <tr>
+            <td>Inglaterra</td>
+            <td><img id="Inglaterra" src="https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg" ></td>
+        </tr>
+        <tr>
+            <td>Canadá</td>
+            <td><img id="Canada" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" ></td>
+        </tr>
+    </table>
+
+        <!-- Um link (<a>) que leve para um site de interesse do aluno (exemplo: um site de notícias, tecnologia ou entretenimento).-->
+
+    <p>
+        <img id="Git" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="Logo GitHub" width="20">
+        Confira um site que gosto de visitar:    
+        <a href="https://github.com/AMDGabrielAMD" target="_blank">GitHub</a>
+    </p>
+
+
+</body>
+</html>
