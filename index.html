@@ -6,39 +6,49 @@
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="script.js">
 <body>
+<!-- Eu iniciei meu código com a estrutura básica do HTML5--> 
 
+        <!--1. Um título principal (<h1>) com seu nome.-->
+    <h1>Gabriel Dias Martins</h1> <!-- Aqui eu utilizei a tag h1 para colocar um título na minha página-->
 
-        <!--Um título principal (<h1>) com seu nome.-->
-    <h1>Gabriel Dias Martins</h1>
-
-        <!--Um parágrafo (<p>) apresentando uma breve autobiografia (nome, idade, cidade, interesses etc.).-->
+        <!--2. Um parágrafo (<p>) apresentando uma breve autobiografia (nome, idade, cidade, interesses etc.).-->
     <p>Olá, meu nome é Gabriel Dias Martins, atualmente tenho 21 anos de idade, moro na cidade de Ponte Nova – Zona da Mata Mineira – o meu polo fica localizado em Viçosa. 
     Eu gosto muito de tecnologia e música. Trabalho como técnico em redes e estudo para ser desenvolvedor o meu maior foco é o backend, tenho buscado me aprofundar meu conhecimento na linguagem java</p>
-
+<!-- No exercício 2 utilizei a tag <p> para colocar um parágrafo em meu site-->
+    
+<!-- 3. Criar um botão abaixo do parágrafo com o texto "Clique para ver uma
+mensagem!". Quando o usuário clicar, uma mensagem (por exemplo uma frase de
+motivação, saudação, boas vindas, etc.) deverá aparecer abaixo do botão.-->
     <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    
+<!--Usei a tag <button> para criar meu botão e utilizei a propriedade onclick que ao clicar no botão ele vai executar a função java script Mostrar mensagem-->
 
     <p id="mensagem"></p>
+    <!--Criei um parágrafo com o objetivo de criar uma id nomeada mensagem-->
 
   <script>
     function mostrarMensagem() {
-      document.getElementById("mensagem").innerText = "Faça o teu melhor, na condição que você tem, enquanto não tem condições melhores, para fazer melhor ainda!";
+      document.getElementById("mensagem").innerText = "Mario Sergio Cortella. 'Faça o teu melhor, na condição que você tem, enquanto não tem condições melhores, para fazer melhor ainda!";
     }
   </script>
-
+<!--Quando o botão for clicado ele vai acionar a função mostrar mensagem onde ele vai procurar dentro do meu documento a identificação mensagem e vai substituir pela frase motivacional-->
+    
     <!--Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas.-->
     <ul>
         <li>Tocar violão</li>
         <li>Jogar videogame</li>
         <li>Jogar Futebol</li>
     </ul>
-
+<!-- Utilizei ás tags ul para criar uma lista e ás tags li para criar linhas dentro da minha lista-->
+    o
         <!--Uma imagem (<img>) que represente um dos hobbies mencionados.-->
 
     <img id="violao" src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" >
 
         <!--Uma tabela <table> que contenha o nome e a imagem de três países que gostaria de visitar. (tabela com 3 linhas x 2 colunas)-->
 
-    <h2 id="h2">Países que gostaria de visitar</h2>
+    <h2 id="h2">Países que gostaria de visitar</h2> 
+    <!-- Eu utilizei a tag <h2> para colocar um título para minha tabela
     <table>
         <tr>
             <th>País</th>
